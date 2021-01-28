@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title> Formulário para ser contratado </title>
+		<link href="chamadoc.css" rel="stylesheet">
+	</head>
+	<body>
+		<div align='center'>
+			<h1> Formulario para cadastramento: </h1>
+			<form action="https://formspree.io/f/mzbkvepq" id='f1' name='contratos' method="POST">
+				<label for= 'name'>
+				Nome: <input type="text" id="name" name="username"/> <br><br>
+				</label>
+				<label for="email1">
+				E-mail: <input type="email" id="email1" name="E-mail"/> <br><br>
+				</label>
+				<label for="cel">
+				Phone: <input type="tel" id="cel" name="numero" placeholder="(84) 9XXXX-XXXX" /> <br><br>
+				</label>
+				<label for='end'>
+				Endereço: <input type="text" id="end" name = "endereço"/>
+				</label>
+				
+				<table>
+					<tr>
+						<th><h3> Cargo: </h3></th>
+					</tr>
+						
+					<tr>
+						<td><Label for="1">
+						Motorista:<input type="radio" id="1" name = "name"/>
+						</label></td>
+					</tr>
+					<tr>
+						<td><Label for="2">
+						Cobrador: <input type="radio" id="2" name = "name"/>
+						</label></td>
+					</tr>
+					<tr>
+						<td><Label for="3">
+						Supervisor: <input type="radio" id="3" name = "name"/>
+						</label></td>
+					</tr>
+					<tr>
+						<td><Label for="4">
+						Auxiliar administrativo: <input type="radio" id="4" name = "name"/>
+						</label></td>
+					</tr>
+					<tr>
+						<td><Label for="5">
+						Gerente: <input type="radio" id="5" name = "name"/>
+						</label></td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td><input type="submit" value="Send"></td>
+						<td><input type='reset' /></td>
+					</tr>
+				</table>
+									<br> <br>
+				<Label for="curri">
+				Curriculo: <input type="file" id="curri" Name="Curriculos"/>
+				</label>
+				<br><br>
+				<a class='left2' href='home.html'> Voltar ao incio.</a>
+			</form>
+		</div>
+	</body>
+</html>
+		

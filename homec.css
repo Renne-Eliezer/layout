@@ -1,0 +1,326 @@
+/* Home */
+h1{
+	text-align: center;
+	background-color: black;
+	color: white;
+	box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+}
+h3{ text-align: center;
+	font-size: 25px;
+}
+#hed{
+	background-color: black;
+	height: 50px;
+	color: whitesmoke;
+	font-size: 30px;
+}
+#p1{
+	margin-left: 10px;
+}
+#p2{
+	font-weight: bolder;
+	font-size: 30px;
+	margin-left: 300px;
+	margin-top: 100px;
+}
+#p3{
+	font-weight: bolder;
+	font-size: 30px;
+	margin-left: 700px;
+	margin-top: -60px;
+
+}
+#bus{
+	height: 50px;
+	width: 80px;
+	margin-left: 1280px;
+	margin-top: -520px;
+}
+body{
+	background-color: rgb(163, 163, 163);
+	margin: 0;
+	
+}
+.menu{
+	margin-left: 240px;
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	width: 250px;
+	background-color: black;
+	align-items: center;
+	padding: 30px;
+	border-radius: 20px;
+	
+}
+.menu2{
+	margin-left: 700px;
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	width: 450px;
+	background-color: black;
+	align-items: center;
+	margin-top: -160px;
+	padding: 30px;
+	border-radius: 20px;
+
+}
+.table{
+	color: black;
+	background-color: lightgray;
+	text-decoration: none;
+	padding: 2px 10px;
+	display: inline-block;
+	margin: 3px;
+	clear: right;
+	border-color: skyblue;
+	border-width: 2px;
+  border-style: solid;
+ 
+}
+.table:link, .table:visited{
+	color: whitesmoke;
+	background-color: black;
+	text-decoration: none;
+	padding: 2px 10px;
+	display: inline-block;
+	margin: 3px;
+	clear: right;
+	border-color: black;
+	border-width: 2px;
+  border-style: solid;
+  font-weight: bolder;
+  padding: 5px;
+}
+.table:hover, .table:active{
+	background-color: green;
+	color: black;
+	border-color: skyblue;
+	font-weight: bolder;
+}
+
+	
+	
+
+p{
+	text-align: justify;
+}
+.bus{
+	align: center;
+	width: 600px;
+	height: 400px;
+}
+
+/* Tela de horarios */
+dl{
+	text-align: left;
+	border-width: 2px;
+  border-style: solid;
+  border-color: darkslategray;
+  font-size: 20px;
+  width: 600px;
+  background-color: rgb(79, 171, 207);
+  color:black;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+  padding: 5px;
+  
+}
+
+
+}
+
+/* Tela de Compras */
+ form{
+	 
+	 border-width: 2px;
+  border-style: solid;
+  border-color: darkslategray;
+  width: 400px;
+  height: 250px;
+  margin: 50px 100px 100px 450px;
+  padding: 10px 10px 10px 10px;
+  font-size: 28px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+ }
+ .form1{
+
+	 text-align: left;
+	  border-width: 2px;
+  border-style: solid;
+  border-color: darkslategray;
+  width: 400px;
+  height: 250px;
+  margin: 50px 450px 100px 450px;
+  padding: 10px 10px 10px 10px;
+  font-size: 28px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+  padding: 20px;
+ }
+ 
+ .enviar{
+	 float: center;
+  margin-top: 10px;
+  margin-left: 100px;
+  clear: center;
+  color: black;
+	background-color: rgb(79, 171, 207);
+ }
+ .enviar:link, .enviar:visited{
+	color: black;
+	background-color: lightgray;
+	text-decoration: none;
+	padding: 2px 10px;
+	display: inline-block;
+	margin: 3px;
+	border-color: black;
+	border-width: 2px;
+  border-style: solid;
+   padding: 5px 5px;
+   margin-left: 5px;
+	margin-top: 80px;
+}
+.enviar:hover, .enviar:active{
+	background-color: green;
+	color: black;
+}
+ /* tela de horarios */
+ .left4:link, .left4:visited{
+	color: black;
+	background-color: rgb(79, 171, 207);
+	text-decoration: none;
+	padding: 2px 10px;
+	display: inline-block;
+	margin: 3px;
+	border-color: black;
+	border-width: 2px;
+  border-style: solid;
+   padding: 5px 5px;
+   margin-left: 630px;
+	margin-top: 100px;
+}
+.left4:hover, .left4:active{
+	background-color: green;
+	color: black;
+}
+
+	 
+ .left:link, .left:visited{
+	color: black;
+	background-color: rgb(79, 171, 207);
+	text-decoration: none;
+	padding: 2px 10px;
+	display: inline-block;
+	margin: 3px;
+	border-color: black;
+	border-width: 2px;
+  border-style: solid;
+   padding: 5px 5px;
+   margin-left: 5px;
+	margin-top: 80px;
+}
+.left:hover, .left:active{
+	background-color: green;
+	color: black;
+}
+.right:link, .right:visited{
+	color: black;
+	background-color: rgb(79, 171, 207);
+	text-decoration: none;
+	padding: 2px 10px;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 80px;
+	float: right;
+	clear: right;
+	border-color: black;
+	border-width: 2px;
+  border-style: solid;
+  padding: 5px 5px;
+}
+.right:hover, .right:active{
+	background-color: green;
+	color: black;
+}
+ 
+ .left1{
+	 float: left;
+  margin-top: 1px;
+  margin-right: 1px;
+  clear: left;
+  color: black;
+	background-color: rgb(79, 171, 207);
+ }
+ .left1:link, .left1:visited{
+	color: black;
+	background-color: rgb(79, 171, 207);
+	text-decoration: none;
+	display: inline-block;
+	border-color: black;
+	border-width: 2px;
+  border-style: solid;
+   padding: 5px 5px;
+	margin-top: -20px;
+	margin-left: 10px;
+}
+.left1:hover, .left1:active{
+	background-color: green;
+	color: black;
+}
+ 
+ .right1{
+	  float: right;
+	  margin-top: -10px;
+	  margin-right: 10px;
+	  clear: right;
+	  color: black;
+	  background-color: rgb(79, 171, 207);
+
+ }
+ .right1:link, .right1:visited{
+	color: black;
+	background-color: rgb(79, 171, 207);
+	text-decoration: none;
+	display: inline-block;
+	border-color: black;
+	border-width: 2px;
+  border-style: solid;
+   padding: 5px 5px;
+   margin-top: -20px;
+	margin-left: 10px;
+}
+.right1:hover, .right1:active{
+	background-color: green;
+	color: black;
+}
+  .left3{
+	 float: left;
+  margin-top: 150px;
+  margin-right: 1px;
+  clear: left;
+  color: black;
+	background-color: rgb(79, 171, 207);
+ }
+ .left3:link, .left3:visited{
+	color: black;
+	background-color: rgb(79, 171, 207);
+	text-decoration: none;
+	display: inline-block;
+	border-color: black;
+	border-width: 2px;
+  border-style: solid;
+  	padding: 5px 5px;
+	margin-left: 10px;
+}
+.left3:hover, .left3:active{
+	background-color: green;
+	color: black;
+}
+ 
+ 
+ /* tela de chamados  */
+	
+	 
+	 
+	
+	
